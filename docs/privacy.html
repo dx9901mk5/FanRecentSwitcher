@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FanRecentGesture 隱私權政策 / Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 820px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #1e293b; background: #f8fafc; }
+    h1, h2 { color: #0f172a; }
+    .card { background: #ffffff; border-radius: 14px; padding: 24px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    code { background: #e2e8f0; padding: 2px 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>FanRecentGesture 隱私權政策 / Privacy Policy</h1>
+  <p>最後更新日期 / Last Updated: 2026-11-18</p>
+
+  <div class="card">
+    <h2>一、核心原則（僅於本機運作，不收集亦不上傳個人資料）</h2>
+    <p><strong>FanRecentGesture</strong>（<code>com.fanrecent.switcher</code>）重視您的隱私權。本應用程式的所有核心功能與權限使用皆<strong>僅於您的裝置本機記憶體中即時運算處理</strong>，我們<strong>不會</strong>收集、儲存、出售、分享或上傳任何個人識別資訊、螢幕畫面內容、使用紀錄或通知內容至任何外部伺服器或第三方。</p>
+  </div>
+
+  <div class="card">
+    <h2>二、敏感權限使用說明</h2>
+    <ul>
+      <li><strong>無障礙服務（<code>BIND_ACCESSIBILITY_SERVICE</code>）</strong>：僅用於偵測目前前台應用程式視窗切換以建立最近任務列表、在您觸發扇形切換器時擷取暫時性縮圖（僅存於本機記憶體快取，不寫入永久儲存空間亦不外傳）、執行使用者主動指派的全域導覽手勢（如返回、主畫面、最近任務、通知欄、分割畫面、鎖定螢幕、截圖），以及偵測系統 Dock 位置與顯示狀態。</li>
+      <li><strong>使用情況存取權限（<code>PACKAGE_USAGE_STATS</code>）</strong>：僅用於在使用者開啟本機最近使用列表或前台檢查模式時，協助判斷最近開啟或已關閉的應用程式狀態，所有資料僅在裝置端即時計算，不作任何遠端統計或追蹤。</li>
+      <li><strong>通知存取權與通知權限（<code>POST_NOTIFICATIONS</code> / <code>BIND_NOTIFICATION_LISTENER_SERVICE</code>）</strong>：通知權限僅用於顯示 Android 前景服務運行狀態；通知存取權僅於使用者主動啟用時，在本機比對並管理與本應用程式相關的系統狀態提示，絕不讀取、紀錄或傳輸任何聊天訊息或第三方應用程式通知內容。</li>
+      <li><strong>顯示在其他應用程式上層（<code>SYSTEM_ALERT_WINDOW</code>）</strong>：僅用於繪製懸浮球、邊緣感應區、扇形選單與透明懸浮小工具桌面。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>三、English Summary (For Google Play Review)</h2>
+    <p><strong>FanRecentGesture</strong> (<code>com.fanrecent.switcher</code>) operates strictly on-device and does <strong>not</strong> collect, transmit, store externally, or share any personal or sensitive user data.</p>
+    <ul>
+      <li><strong>AccessibilityService API</strong>: Used solely to detect active app window transitions for the user's radial app switcher, capture temporary in-memory previews when triggered by the user, dispatch user-configured global navigation actions, and detect system Dock visibility/pinned labels locally. No screen content or personal data leaves the device.</li>
+      <li><strong>Usage Stats (<code>PACKAGE_USAGE_STATS</code>)</strong>: Used locally on-device to determine active vs. closed applications for the user's recent-apps list.</li>
+      <li><strong>Notifications (<code>POST_NOTIFICATIONS</code> / <code>NotificationListenerService</code>)</strong>: Used solely for foreground service status and optional local management of this app's own overlay status notices. Third-party notification contents are never read, logged, or transmitted.</li>
+    </ul>
+    <p>Contact: <a href="https://github.com/dx9901mk5/FanRecentSwitcher">https://github.com/dx9901mk5/FanRecentSwitcher</a></p>
+  </div>
+</body>
+</html>
