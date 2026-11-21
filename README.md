@@ -79,5 +79,11 @@
 ---
 
 ## 下載與安裝 / Download
-- **直接下載 APK / Download APK**: 前往 [Releases](https://github.com/dx9901mk5/FanRecentSwitcher/releases/latest) 下載最新版本 `FanRecentGesture-v*.apk`。
+> **重要公告 / Important Notice**  
+> 本應用程式目前已進入 Google Play 封閉測試階段。**待 Google Play 正式版審核通過上架後，本 GitHub 倉庫的 Releases 將僅提供輔助金鑰（`FRG-Key-v*.apk`）下載，主程式請統一由 Google Play 商店下載安裝**（屆時本頁亦會同步更新正式版 Play 商店連結）。  
+> *Google Play 商店連結（正式版上架後開放）：* https://play.google.com/store/apps/details?id=com.fanrecent.switcher  
+>
+> **Notice:** This app is currently in Google Play Closed Testing. **Once the Google Play production release is approved and live, GitHub Releases will only provide the companion key APK (`FRG-Key-v*.apk`), and the main app will be distributed exclusively via Google Play** (with the official store link posted here).
+
+- **直接下載測試版 APK / Download Preview APK**：前往 [Releases](https://github.com/dx9901mk5/FanRecentSwitcher/releases/latest) 下載最新版本 `FanRecentGesture-v*-github.apk`（內建使用期限至 `2026/12/08`，共 16 天體驗期）及輔助金鑰 `FRG-Key-v*.apk`。
 - 本倉庫為 **純發布頁（Release-only）**，僅提供最新版本 APK 下載與功能說明。
