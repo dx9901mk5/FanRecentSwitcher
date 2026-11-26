@@ -1,7 +1,7 @@
 # FanRecentGesture / FanRecentSwitcher（扇形多工手勢）
 
-**單手扇形最近任務切換器 × 邊緣手勢 × 扇形捷徑 × 透明懸浮桌面 × 模擬 Dock（支援手機、摺疊機與平板）**  
-**One-handed fan-style recent app switcher, edge gestures, shortcut pie, transparent floating desktop, and simulated Dock for Android phones, foldables, and tablets.**
+**單手扇形最近任務切換器 × 邊緣手勢 × 扇形捷徑 × 透明懸浮桌面 × 模擬 Dock（未來更新）（支援手機、摺疊機與平板）**  
+**One-handed fan-style recent app switcher, edge gestures, shortcut pie, transparent floating desktop, and simulated Dock (upcoming) for Android phones, foldables, and tablets.**
 
 ---
 
@@ -34,9 +34,9 @@
    - 建立多個可命名的透明背景懸浮桌面，自由加入任意 App 桌面小工具（Widget），長壓拖曳移動與縮放大小。
    - 從邊緣手勢或扇形捷徑開啟時，具備從觸發點彈出與收回的回彈動畫；單擊空白處立即關閉。
 
-5. **模擬 Dock（Tab 5）**
-   - 專為無法使用系統 Dock 或需要進階多工的裝置設計：整合左下角 **App 抽屜**（含集中展開／收回特效）、**常駐釘選 App**（長壓左右拖曳即時排序，放開確認）與 **最近使用 App**。
-   - 支援 7 種底色風格（毛玻璃、泡泡框、無底色、iOS 液態玻璃、OneUI 深霧膠囊、HyperOS 霓虹框、macOS 磨砂底座）、前景縮小常駐比例調整、摺疊展開／平板專用模式，以及點擊展開／回桌面歸位回彈特效。
+5. **模擬 Dock（Tab 5 — 未來更新）**
+   - *（此分頁將於未來版本更新推出）* 專為無法使用系統 Dock 或需要進階多工的裝置設計：整合左下角 **App 抽屜**（含集中展開／收回特效）、**常駐釘選 App**（長壓左右拖曳即時排序，放開確認）與 **最近使用 App**。
+   - 預計支援多種底色風格（毛玻璃、泡泡框、無底色、iOS 液態玻璃、OneUI 深霧膠囊、HyperOS 霓虹框、macOS 磨砂底座）、前景縮小常駐比例調整、摺疊展開／平板專用模式，以及點擊展開／回桌面歸位回彈特效。
 
 6. **其他貼心設計**
    - 支援 **繁體中文、簡體中文、English、日本語** 四語系即時切換。
@@ -67,13 +67,13 @@
 4. **Transparent Floating Desktop (Tab 4)**
    - Create multiple named transparent overlay pages with real Android App Widgets—long-press to move or resize, and tap any empty area to close with spring-back animation.
 
-5. **Simulated Dock (Tab 5)**
-   - Floating taskbar featuring an **App Drawer** with spring-cluster animation, **Pinned Apps** (long-press and drag horizontally to reorder), and **Recent Apps**.
-   - Includes 7 background themes (Glass, Bubble, None, Liquid Frost, OneUI Pill, HyperOS Aura, macOS Shelf), foreground auto-compact scaling, tablet/unfolded-only mode, drag-to-split/freeform, and app launch/home-return bounce animations.
+5. **Simulated Dock (Tab 5 — Upcoming Update)**
+   - *(Planned for a future update)* Floating taskbar featuring an **App Drawer** with spring-cluster animation, **Pinned Apps** (long-press and drag horizontally to reorder), and **Recent Apps**.
+   - Planned features include multiple background themes (Glass, Bubble, None, Liquid Frost, OneUI Pill, HyperOS Aura, macOS Shelf), foreground auto-compact scaling, tablet/unfolded-only mode, drag-to-split/freeform, and app launch/home-return bounce animations.
 
 6. **Localization, Backup & Updates**
    - Built-in **Traditional Chinese, Simplified Chinese, English, and Japanese** UI language switcher.
-   - **Scoped JSON Backup & Restore** across Tabs 1–5 and global settings.
+   - **Scoped JSON Backup & Restore** across Tabs 1–4 (and upcoming Tab 5) and global settings.
    - **In-app GitHub release checker** and smart permission shortcuts that auto-scroll to this app in Android Settings.
 
 ---
